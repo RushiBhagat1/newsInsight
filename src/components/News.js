@@ -38,7 +38,7 @@ const updateNews=async()=> {
   useEffect(() => {
     document.title = `${capitalizeFirstLetter(props.category)}  NewsInsight`;
   updateNews();
-  },[])
+  },[ ])
 
  
 
